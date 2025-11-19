@@ -58,12 +58,11 @@
 			status = "ok";
 
 			nand@0 {
-			        reg = <0x0 0x0 0x0 0x0>;
+				reg = <0x0 0x0 0x0>;
 			        nand-ecc-strength = <4>;
 			        nand-ecc-step-size = <512>;
 			        nand-bus-width = <8>;
 			};
-
 		};
 
 		phy@86000 {
